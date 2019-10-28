@@ -5,10 +5,15 @@
   "repository": "https://github.com/rlindoso/gymPoint_backend.git",
   "author": "Rafael Lindoso <rafael.lindoso@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "sucrase": "^3.10.1"
   }
 }
