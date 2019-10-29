@@ -1,6 +1,7 @@
 module.exports = {
   dialect: 'postgres',
   host: 'localhost',
+  port: '5430',
   username: 'postgres',
   password: 'docker',
   database: 'gymPoint',
@@ -8,5 +9,5 @@ module.exports = {
     timestamps: true,
     underscored: true,
     underscoredAll: true,
-  }
+  },
 };
