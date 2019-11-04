@@ -8,7 +8,7 @@ import databaseConfig from '../config/database';
 const models = [User, Student];
 
 class Database {
-  construtor() {
+  constructor() {
     this.init();
   }
 
